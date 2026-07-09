@@ -10,9 +10,9 @@ void setup() {
 }
 
 void loop() {
-  sensorval=analogRead(LM35); reading the input sent by sensor to microcontroller
-  Serial.println(sensorval); printing the value on serial monitor
-  delay(1000);delay between each print (1 second)
+  sensorval=analogRead(LM35); //reading the input sent by sensor to microcontroller
+  Serial.println(sensorval);// printing the value on serial monitor
+  delay(1000);//delay between each print (1 second)
   
 
   // put your main code here, to run repeatedly:
